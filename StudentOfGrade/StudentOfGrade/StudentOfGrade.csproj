@@ -223,6 +223,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\CSS\" />
+    <Folder Include="Content\JS\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
