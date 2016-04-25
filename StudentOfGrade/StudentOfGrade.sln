@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentOfGrade", "StudentOfGrade\StudentOfGrade.csproj", "{10C00D19-B280-43AD-96F3-2269CE7A371C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Model\Entity.csproj", "{6C58E66F-4289-47FC-91FB-5CF59E499026}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{6C58E66F-4289-47FC-91FB-5CF59E499026}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{345E5B88-E35B-47C3-B2D3-3ED6FB8FE646}"
 EndProject
