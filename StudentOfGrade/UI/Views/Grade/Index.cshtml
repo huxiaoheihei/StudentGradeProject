@@ -1,0 +1,30 @@
+﻿@using UI.Controllers
+@using UI.Models
+@model UI.Models.ModelToView
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>添加学生平时成绩</title>
+</head>
+<body>
+    @using (Html.BeginForm("Index", "Grade"))
+    {
+        <div class="createGraItem">
+            <p>创建计分项：</p>
+            @Html.Label("itemName", "计分项名称：", new { @class = "LabelFor" })
+            @Html.TextBox("itemName", null, new { @class = "itemNames" })
+            @Html.Label("itemWeight", "所占权重：", new { @class = "LabelFor" })
+            @Html.TextBox("itemWeight", null, new { @class = "itemWeights" })
+            @Html.Label("item", "所属类型：", new { @class = "LabelFor" })
+            @Html.TextBox("item", null, new { @class = "items" })
+            <input class="sendItem" type="submit" value="创建">
+        </div>
+    }
+</body>
+</html>
