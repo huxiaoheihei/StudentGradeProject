@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+//using System.ComponentModel.DataAnnotations.Schema;
 namespace Model
 {
   public  class Teacher
     {
       public int TeacherId { get; set; }
-      [MaxLength(10)]
+     
       public string TuserName { get; set; }
       public string TpassWord { get; set; }
       public string TrealName { get; set; }
