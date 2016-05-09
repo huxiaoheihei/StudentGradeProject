@@ -10,6 +10,7 @@ namespace Model
         public int GradeItemId { get; set; }
         public string GradeItemName { get; set; }
         public string Wight { get; set; }
+        public string PerOrTeam { get; set; }
 
         public virtual List<PersonalGrade> PersonalGrades { get; set; }
         public virtual List<TeamGrade> TeamGrades { get; set; }
